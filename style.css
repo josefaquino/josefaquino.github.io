@@ -1,0 +1,64 @@
+/* Estilos gerais */
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Estilos para o artigo em destaque */
+.featured-article {
+  text-align: center;
+}
+
+.featured-article img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos para a grade de artigos */
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.articles-grid article {
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.articles-grid img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos para o botão "Leia mais" */
+.read-more {
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
